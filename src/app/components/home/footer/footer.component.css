@@ -1,0 +1,21 @@
+footer{
+    background: #e4e4e4;
+    width: 100%;
+    height: 25vh;
+    color: #939393;
+}
+
+.footer div:nth-child(1){
+    font-size: 25px;
+}
+h5{
+font-size: 20px;
+}
+
+a{
+    color: #939393;
+}
+i{
+    font-size: 25px;
+    margin: 10px;
+}

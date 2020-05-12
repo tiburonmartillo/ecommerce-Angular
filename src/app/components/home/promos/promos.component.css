@@ -1,0 +1,16 @@
+.card{
+    width: 400px;
+    height: 400px;
+}
+
+.tarjeta{
+    transform: translateY(35%);
+}
+
+h3{
+    font-size: 40px;
+}
+
+h5{
+    font-size: 20px;
+}

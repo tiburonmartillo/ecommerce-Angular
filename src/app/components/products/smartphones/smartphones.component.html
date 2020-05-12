@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-3 m-auto" *ngFor="let Producto of productsShow">
+        <div class="tarjeta">
+            <div>
+                <img [src]="Producto.img" alt="">
+                <span (click)="GetIdToChangeScreen(Producto.id)">Mostrar Detalles</span>
+            </div>
+            <span>{{Producto.model}}</span>
+            <span>${{Producto.price}}</span>
+        </div>
+    </div>
+</div>
